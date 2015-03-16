@@ -1,0 +1,94 @@
+---
+title: Inicio
+layout: spanish.hbs
+---
+
+<form method="GET" action="results.html">
+
+	<div class='row center first'>
+		
+		<h5>Compruebe el estado de los permisos e inspecciones emitidos por Miami-Dade.</h5>
+		
+	</div>
+	
+	<div class='row'>
+				
+		<h3 class='bold'>¿Qué información tiene usted?</h3>
+		<h5>(Elije uno)</h5>
+		
+	</div>
+
+		<div class='row center'>
+				
+		<div class='faux-radio bold'>
+			
+			<input class='identifier' type="radio" name="search-type" value="permit" id='permit'> 
+			<label for="permit">
+				<div class="icon icon-white icon-icon-permit-white"></div>
+				<div class="icon icon-green icon-icon-permit-green hide"></div>
+			</label>
+			<p>Número de permiso</p>
+			
+		</div>
+		
+		<div class='faux-radio bold'>
+			
+			<input class='identifier' type="radio" name="search-type" value="process" id='process'>
+			<label for="process">
+				<div class="icon icon-white icon-icon-process-white"></div>
+				<div class="icon icon-green icon-icon-process-green hide"></div>
+			</label>
+			<p>Número de proceso</p>
+		</div>
+		
+		<div class='faux-radio bold'>
+			
+			<input class='identifier' type="radio" name="search-type" value="address" id='address'>
+			<label for="address">
+				<div class="icon icon-white icon-icon-map-marker-white"></div>
+				<div class="icon icon-green icon-icon-map-marker-green hide"></div>
+			</label>
+			<p>Dirección</p>
+			
+		</div>
+		
+	</div>
+	
+	<div class='row center'>
+		
+		<div class='faux-radio bold'>
+			
+			<input class='identifier' type="radio" name="search-type" value="folio" id='folio'> 
+			<label for="folio">
+				<div class="icon icon-white icon-icon-folio-white"></div>
+				<div class="icon icon-green icon-icon-folio-green hide"></div>
+			</label>
+			<p>Número de Folio</p>
+			
+		</div>
+		
+		<div class='faux-radio bold'>
+			
+			<input class='identifier' type="radio" name="search-type" value="contractor" id='contractor'> 
+			<label for="contractor">
+				<div class="icon icon-white icon-icon-contractor-white"></div>
+				<div class="icon icon-green icon-icon-contractor-green hide"></div>
+			</label>
+			<p>Número de Contratista o Qualifier</p>
+			
+		</div>
+	</div>
+		
+	</div>
+	
+	<div class='row center'>	
+		
+		<h2 id='identifier-header'></h2>
+		<input type="text" style="width:40rem;" name="permit-id" placeholder="">
+		<a class='button' href='results.html' id='submit-href'>Iniciar</a>
+	</div>
+</form>
+
+
+
+

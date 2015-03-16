@@ -25,6 +25,14 @@ Install
 We'll get back to you on this one....
 
 1. Register with [Instagram](https://instagram.com/developer/)
+2. Install [NPM](https://npmjs.org/), [Grunt](http://gruntjs.com/getting-started), [Assemble](http://assemble.io/docs/Installation.html)
+3. Install dependencies (being super detailed because it'll have to be replicated): 
+	npm install grunt-contrib-compass --save-dev 
+	npm install grunt-contrib-watch --save-dev
+	npm install grunt-contrib-clean --save-dev 
+	npm install grunt-verb --save-dev 
+	npm install grunt-newer --save-dev
+	
 
 Run
 ---
