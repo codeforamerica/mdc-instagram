@@ -1,18 +1,6 @@
 The Shiny Instagram Thing
 ==================
 
-
-Install
--------
-
-We'll get back to you on this one.
-
-Run
----
-
-...and this one too.
-
-
 Intent
 ------
 
@@ -30,3 +18,13 @@ Admin back-end that allows:
 * login
 * control over the tracked hashtag
 * control over the map display area (for example, instead of #kingtide in Miami, #tarballs in Galveston, etc). 
+
+Install
+-------
+
+We'll get back to you on this one.
+
+Run
+---
+
+...and this one too.
