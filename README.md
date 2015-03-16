@@ -22,7 +22,9 @@ Admin back-end that allows:
 Install
 -------
 
-We'll get back to you on this one.
+We'll get back to you on this one....
+
+1. Register with [Instagram](https://instagram.com/developer/)
 
 Run
 ---
