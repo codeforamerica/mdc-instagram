@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title></title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
@@ -38,18 +38,25 @@
 		<li class='left'><p>Please choose your language.</p>
 		<li class='button one column active reverse' id='en'>EN</li>
 		<li class='button one column' id='es'>ES</li>
-		<li class='button three columns'><a href='http://www.miamidade.gov/economy/'>Go to RER</a></li>
 	</ul>
 	
 </div>
 
 <nav>
 	
-	<!--<li class='left icon icon-icon-logo'></li>-->
-	
-	<li class='button'>Apply for a permit</li>
-	<li class='button active'><a href='index.html'>Check permit status</a></li>
-	<li class='button'>Schedule Inspection</li>
+	<!-- The above form looks like this -->
+	<form>
+	  
+	  	<div class="row">
+		    <div class="six columns">
+		    	<label for="searchTag">Hashtag</label>
+				<input class="u-full-width" type="text" placeholder="#codeforamerica" id="searchTag">
+		    </div>
+		</div> <!-- /row -->
+	  
+		<input class="button-primary" type="submit" value="Submit">
+		
+	</form>
 	
 </nav>
 	
@@ -60,108 +67,15 @@
       <!-- body partial, used for adding pages to layout -->
       
 
-<form method="GET" action="results.html">
-
-	<div class='row center first'>
-		
-		<h5>Check the status of permits and inspections issued by Miami-Dade County.</h5>
-		
-	</div>
-	
-	<div class='row'>
-				
-		<h3 class='bold'>What information do you have?</h3>
-		<h5>(Pick one)</h5>
-		
-	</div>
-
-	<div class='row center'>
-				
-		<div class='faux-radio bold'>
-			
-			<input class='identifier' type="radio" name="search-type" value="permit" id='permit'> 
-			<label for="permit">
-				<div class="icon icon-white icon-icon-permit-white"></div>
-				<div class="icon icon-green icon-icon-permit-green hide"></div>
-			</label>
-			<p>Permit Number</p>
-			
-		</div>
-		
-		<div class='faux-radio bold'>
-			
-			<input class='identifier' type="radio" name="search-type" value="process" id='process'>
-			<label for="process">
-				<div class="icon icon-white icon-icon-process-white"></div>
-				<div class="icon icon-green icon-icon-process-green hide"></div>
-			</label>
-			<p>Process Number</p>
-		</div>
-		
-		<div class='faux-radio bold'>
-			
-			<input class='identifier' type="radio" name="search-type" value="address" id='address'>
-			<label for="address">
-				<div class="icon icon-white icon-icon-map-marker-white"></div>
-				<div class="icon icon-green icon-icon-map-marker-green hide"></div>
-			</label>
-			<p>Address</p>
-			
-		</div>
-		
-	</div>
-	
-	<div class='row center'>
-		
-		<div class='faux-radio bold'>
-			
-			<input class='identifier' type="radio" name="search-type" value="folio" id='folio'> 
-			<label for="folio">
-				<div class="icon icon-white icon-icon-folio-white"></div>
-				<div class="icon icon-green icon-icon-folio-green hide"></div>
-			</label>
-			<p>Folio Number</p>
-			
-		</div>
-		
-		<div class='faux-radio bold'>
-			
-			<input class='identifier' type="radio" name="search-type" value="contractor" id='contractor'> 
-			<label for="contractor">
-				<div class="icon icon-white icon-icon-contractor-white"></div>
-				<div class="icon icon-green icon-icon-contractor-green hide"></div>
-			</label>
-			<p>Contractor or Qualifier Number</p>
-			
-		</div>
-	</div>
-		
-	</div>
-	
-	<div class='row center'>	
-		
-		<h2 id='identifier-header'></h2>
-		<input type="text" style="width:40rem;" name="permit-id">
-		<a class='button' href='results.html' id='submit-href'>Submit</a>
-	</div>
-</form>
-
-
-
-
-
-
       
     </div>
   
   
-<footer>
-	
-	<p><span class='bold'>The Unnamed Project</span> by Team Miami-Dade: Mathias Gibson, Sophia Dengo, Ernie Hsiung. Build Week 2015.</p>
-	<p>Icons from <a href='thenounproject.com' target="_blank">The Noun Project</a>, specifically: Michele Zamparo, Marek Polakovic, Nick Abrams, Pham Thi Dieu Linh, Samuel Q. Green, and iconsmind.com</p>
-	
-</footer>
+		<footer>
+			
+			
+		</footer>
 
-</body>
+	</body>
 
 </html>
