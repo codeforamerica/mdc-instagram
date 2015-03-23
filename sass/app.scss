@@ -36,6 +36,7 @@ html {
 	
 }
 
+
 /* utility classes */
 .right {
 		
@@ -120,9 +121,17 @@ a:hover {
 	color:#aad315;
 }
 
+#mapHolder {
+	
+	width:100%;
+	height:auto;
+	overflow: auto;
+}
+
 #map {
 	
-	height:500px;
+	height:600px;
+	width:100%;
 	overflow: auto;
 }
 
@@ -225,13 +234,6 @@ a:hover {
 		margin-top:0;
 	}
 	
-	.container {
-		
-		width:1200px;
-		margin-top:10px;
-		
-	}
-	
 	
 	.button {
 	
@@ -324,6 +326,11 @@ a:hover {
 @media (min-width: 1200px) {
 	
 	
+	.container {
+		
+		width:100% !important;
+		max-width:100% !important;
+	}
 
 
 	

@@ -86,7 +86,7 @@ $(document).ready(function() {
 	
 	//25.7667° N, 80.2000° W
 	
-	var map = L.map('map').setView([25.776, -80.2], 11);
+	var map = L.map('map').setView([25.776, -80.2], 10);
 	L.tileLayer('http://a.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
 }).addTo(map);
