@@ -98,6 +98,7 @@ $(document).ready(function() {
 		
 		var marker = L.marker([obj.location.latitude, obj.location.longitude]).addTo(map);
 			marker.bindPopup("<b>Hello world!</b><br>I am a popup.<br><img src='" + obj.images.low_resolution.url + "'>", this, {maxWidth:400});
+			marker.update();
 			
 		console.log('markers created');
 	}
